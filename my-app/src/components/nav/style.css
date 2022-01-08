@@ -14,31 +14,9 @@
   font-family: "poppins";
   color: var(--maincolor);
   padding: 15px;
-  background-color: hidden;
 }
 
 /* hide the nav links until clicked */
-.hide {
-  visibility: hidden;
-  justify-content: center;
-  align-items: center;
-  position: sticky;
-  top: 0;
-  font-family: "Rock Salt", cursive;
-  font-weight: 400;
-  font-size: 20px;
-  padding: 5px;
-  margin: 5px;
-  transition-property: color flex;
-  transition-timing-function: ease-in-out;
-  transition-duration: 0.8s;
-  display: flex;
-  padding: 5px;
-  margin: 5px;
-  overflow: hidden;
-  width: 8rem;
-}
-
 .transformed {
   visibility: visible;
   background-color: var(--bloop);
@@ -52,7 +30,6 @@
   position: sticky;
   transition-property: color flex;
   transition-timing-function: ease-in-out;
-  transition-duration: 0.5s;
   display: flex;
   padding: 5px;
   margin: 5px;
@@ -72,7 +49,6 @@
   align-items: center;
   position: sticky;
   transition-timing-function: ease-in-out;
-  transition-duration: 0.5s;
   display: flex;
   padding: 5px;
   margin: 5px;
@@ -88,7 +64,6 @@
 }
 
 #navs a {
-  text-decoration: none;
   color: var(--floop);
   padding: 8px 25px;
 }
@@ -114,22 +89,4 @@ body nav ul a.active li {
   box-shadow: 10px 10px 10px var(--secondary), 0px 0px 40px var(--secondary),
     0px 0px 80px var(--secondary);
   transform: scale(1.05);
-}
-
-@media screen and (max-width: 1024px) {
-  #navbar {
-    width: 60%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  #navbar {
-    flex-direction: column;
-  }
-  #centerAll {
-    position: relative;
-    top: 200px;
-    left: 0%;
-    right: 50%;
-  }
 }

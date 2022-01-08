@@ -10,9 +10,6 @@ import storm from './storm.jpg'
 function Projects() {
     return (
         <>
-            <div className="overlay"></div><video id="vid" playsInline autoPlay muted loop>
-                <source src={Dots} type="video/mp4"></source>
-            </video>
 
             <main className="animate__animated animate__fadeInLeft">
                 {/* <!--PROJECTS--> */}

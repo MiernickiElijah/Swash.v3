@@ -10,10 +10,6 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 function Contact() {
     return (
         <main className="page">
-            <div className="overlay"></div>
-            <video id="vid" playsInline autoPlay muted loop>
-                <source src={Dots} type="video/mp4"></source>
-            </video>
 
             <div className="d-flex flex-column flex-shrink-0 bg">
                 <ul className="nav nav-pills nav-flush flex-column mb-auto text-center" id="contactlist">
