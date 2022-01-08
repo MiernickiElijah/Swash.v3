@@ -19,22 +19,22 @@ function Contact() {
                 <ul className="nav nav-pills nav-flush flex-column mb-auto text-center" id="contactlist">
 
                     <a className="contactLink aL" href="mailto:miernickielijah@gmail.com">
-                        <FontAwesomeIcon class='icon' icon={faInbox} /><strong>Miernickielijah@gmail.com</strong></a>
+                        <FontAwesomeIcon className='icon' icon={faInbox} /><strong>Miernickielijah@gmail.com</strong></a>
 
                     <a className="contactLink aL" href="https://github.com/MiernickiElijah" target="_blank" rel="noreferrer">
-                        <FontAwesomeIcon class='icon' icon={faGithub} />
+                        <FontAwesomeIcon className='icon' icon={faGithub} />
                         <strong>github.com/MiernickiElijah</strong></a>
 
                     <a className="contactLink aL" href=" https://www.linkedin.com/in/miernickielijah/" target="_blank">
-                        <FontAwesomeIcon class='icon' icon={faLinkedin} />
+                        <FontAwesomeIcon className='icon' icon={faLinkedin} />
                         <strong>linkedIn.com/in/miernickielijah</strong></a>
 
                     <a className="contactLink aL" href=" tel:7634129985">
-                        <FontAwesomeIcon class='icon' icon={faPhone} />
+                        <FontAwesomeIcon className='icon' icon={faPhone} />
                         <strong>763-412-9985</strong></a>
 
                     <a className="contactLink aL" href={resume} target="_blank" rel="noreferrer">
-                        <FontAwesomeIcon class='icon' icon={faFilePdf} />
+                        <FontAwesomeIcon className='icon' icon={faFilePdf} />
                         Resume</a>
                 </ul>
             </div>
