@@ -91,13 +91,10 @@
   text-decoration: none;
   color: var(--floop);
   padding: 8px 25px;
-  transition: all 0.2s ease;
 }
 
 #fast:hover {
   background-color: var(--tertiary);
-  transition-duration: 0.5s;
-  transition-delay: 0s;
   border: var(--floop);
   border-width: 5px;
   border-radius: 8px;
