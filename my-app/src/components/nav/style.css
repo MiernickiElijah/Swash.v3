@@ -60,12 +60,12 @@
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  margin: 20px 0px;
+  margin: 20px 5px;
 }
 
 #navs a {
   color: var(--floop);
-  padding: 8px 25px;
+  padding: 10px 30px;
 }
 
 #fast:hover {
@@ -74,7 +74,7 @@
   border-width: 5px;
   border-radius: 8px;
   transform: scale(1.05);
-  box-shadow: 10px 10px 10px var(--secondary), 0px 0px 40px var(--secondary),
+  box-shadow: 3px 10px 10px var(--secondary), 0px 0px 40px var(--secondary),
     0px 0px 80px var(--secondary);
   cursor: pointer;
 }
@@ -86,7 +86,7 @@ body nav ul a.active li {
   border-color: var(--floop);
   border-radius: 8px;
   text-transform: uppercase;
-  box-shadow: 10px 10px 10px var(--secondary), 0px 0px 40px var(--secondary),
+  box-shadow: 5px 10px 10px var(--secondary), 0px 0px 40px var(--secondary),
     0px 0px 80px var(--secondary);
-  transform: scale(1.05);
+  transform: scale(1.5);
 }

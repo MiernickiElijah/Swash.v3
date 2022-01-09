@@ -8,10 +8,6 @@ function Nav() {
                 <li className="hide tab" id="fast">Home</li>
             </NavLink>
 
-            <NavLink to="/bio" activeClassName="active">
-                <li className="hide tab" id="fast">BIO</li>
-            </NavLink>
-
             <NavLink to="/projects" activeClassName="active">
                 <li className="hide tab" id="fast">PROJECTS</li>
             </NavLink>
