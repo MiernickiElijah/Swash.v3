@@ -3,7 +3,7 @@ import './style.css'
 
 function Home() {
     return (
-        <main className="page container col-xxl-8 px-4 py-5">
+        <main className="page container-fluid col-xl-8 px-4 py-5">
 
             <section className="aboutme row flex-lg-row-reverse align-items-center g-5 py-5">
                 <article className="col-lg-6" id="bio">

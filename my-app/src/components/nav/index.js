@@ -13,18 +13,20 @@ function Nav() {
     return (
         <>
             <div className="navbar">
-                <Link to="#" className="menu-bars">
+                <Link to="#" className="menu-bars" id='hamburger'>
                     <reactIcons.FaBars onClick={showNavbar} />
                 </Link>
             </div>
 
+            {/* this is the toggle for the nav menu using a ternary  */}
             <nav className={navbar ? 'nav-menu active' : 'nav-menu'}>
-                <ul className='nav-menu-items'>
+                <ul className='nav-menu-items' onClick={showNavbar}>
                     <li className='navbar-toggle'>
                         <Link to="#" className="menu-bars" id='menuClose'>
                             <AireactIcons.AiOutlineClose />
                         </Link>
                     </li>
+
                     {/* map through the Navbar object passed in from navbar.js to display all listed pages */}
                     {Navbar.map((page, index) => {
                         return (
