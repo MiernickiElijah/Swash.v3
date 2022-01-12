@@ -24,7 +24,7 @@ function Home() {
                             - MongoDB
                             - Express
                             - Node.js
-                            - (PowerBI, Microsoft Dynamics, IMB - Cognos, Excel)
+                            - (PowerBI, Microsoft Dynamics, Cognos, Excel)
                         </ol>
                     </p>
                 </article>
