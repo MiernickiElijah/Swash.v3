@@ -9,3 +9,78 @@
   --bloop: #00aeef;
   --floop: #9e5aa4;
 }
+
+.navbar {
+  height: 80px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.menu-bars {
+  margin-right: 2rem;
+  font-size: 2rem;
+  background: none;
+}
+
+.nav-menu {
+  background-color: var(--maincolor);
+  height: 90vh;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 100%;
+  left: 0;
+  transition: 850ms;
+}
+
+.nav-menu.active {
+  top: 0%;
+  transition: 350ms;
+}
+
+.nav-text {
+  font-family: poppins;
+  font-size: 30px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 8px 0px 8px 12px;
+  list-style: none;
+  height: 50px;
+}
+
+.nav-text.a {
+  text-decoration: none;
+  color: var(--bloop);
+  font-size: 40px;
+  width: 95%;
+  height: 100%;
+  align-items: center;
+  padding: 0 10px;
+  border-radius: 6px;
+}
+
+.nav-text:hover #pageIcon {
+  height: 30px;
+  color: var(--secondary);
+  transition-duration: 0.5s;
+}
+
+.navbar-toggle {
+  background-color: var(--maincolor);
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+#menuClose:hover {
+  color: var(--secondary);
+}
+
+span {
+  margin-left: 16px;
+}

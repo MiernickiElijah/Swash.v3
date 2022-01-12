@@ -71,5 +71,5 @@ html {
   color: var(--secondary);
   transition-delay: 0.2s;
   transition-duration: 0.5s;
-  transform: translateX(-30px);
+  transform: translateX(-15px);
 }

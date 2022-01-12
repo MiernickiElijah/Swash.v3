@@ -1,4 +1,4 @@
-import { Link, NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './style.css';
 import * as reactIcons from "react-icons/fa";
 import * as AireactIcons from "react-icons/ai";
@@ -20,17 +20,17 @@ function Nav() {
 
             <nav className={navbar ? 'nav-menu active' : 'nav-menu'}>
                 <ul className='nav-menu-items'>
-                    <li className='navbar=toggle'>
-                        <Link to="#" className="menu=bars">
+                    <li className='navbar-toggle'>
+                        <Link to="#" className="menu-bars" id='menuClose'>
                             <AireactIcons.AiOutlineClose />
                         </Link>
                     </li>
-                    {/* HERE WE MAP THROUGH THE Navbar object passed in from navbar.js */}
+                    {/* map through the Navbar object passed in from navbar.js to display all listed pages */}
                     {Navbar.map((page, index) => {
                         return (
                             <li key={index} className={page.className}>
                                 <Link to={page.path}>
-                                    {page.icon}
+                                    <icon id='pageIcon'>{page.icon}</icon>
                                     <span>{page.title}</span>
                                 </Link>
                             </li>
