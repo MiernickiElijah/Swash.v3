@@ -1,5 +1,8 @@
 import Eli from './Eli2.png'
 import './style.css'
+import * as FareactIcons from "react-icons/fa";
+import * as IoreactIcons from "react-icons/io";
+import * as SireactIcons from "react-icons/si";
 
 function Home() {
     return (
@@ -13,14 +16,13 @@ function Home() {
                         I am an adaptable individual with strong technical aptitude and problem solving skills fixated on learning and growing.
                     </p>
                     <ol className='skillsList'>
-                        <li>React</li>
-                        <li>Java Script</li>
-                        <li>HTML5 & CSS3</li>
-                        <li>MongoDB</li>
-                        <li>Express</li>
-                        <li>Node.js</li>
-                        <li>(PowerBI, Microsoft Dynamics, Cognos, Excel)</li>
-                        <li video></li>
+                        <li className='aL'><FareactIcons.FaReact className='skillIcon' />  React</li>
+                        <li className='aL'><IoreactIcons.IoLogoJavascript className='skillIcon' />  Java Script</li>
+                        <li className='aL'><SireactIcons.SiHtml5 className='skillIcon' />  HTML5 <SireactIcons.SiCss3 className='skillIcon' />  CSS3</li>
+                        <li className='aL'><SireactIcons.SiMongodb className='skillIcon' />  MongoDB</li>
+                        <li className='aL'><SireactIcons.SiExpress className='skillIcon' />  Express.js</li>
+                        <li className='aL'><FareactIcons.FaNodeJs className='skillIcon' />  Node.js</li>
+                        <li className='aL'>(<SireactIcons.SiPowerbi className='skillIcon' />  PowerBI,<SireactIcons.SiDynamics365 className='skillIcon' />  Microsoft Dynamics, <FareactIcons.FaFileExcel className='skillIcon' />  Excel)</li>
                     </ol>
                 </article>
                 <article className="col-lg-6">

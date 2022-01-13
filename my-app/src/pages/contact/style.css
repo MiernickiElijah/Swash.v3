@@ -73,3 +73,10 @@ html {
   transition-duration: 0.5s;
   transform: translateX(-15px);
 }
+
+.aL:hover .skillIcon {
+  height: 30px;
+  color: var(--secondary);
+  transition-delay: 0.2s;
+  transition-duration: 0.5s;
+}
