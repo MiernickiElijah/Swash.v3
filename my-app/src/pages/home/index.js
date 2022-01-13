@@ -10,7 +10,7 @@ function Home() {
 
             <section className="aboutme row flex-lg-row-reverse align-items-center">
                 <article className="intro col-lg-6" id="bio">
-                    <h1 id="aboutMeTitle">Elijah M.J.O. Miernicki</h1>
+                    <h1 id="aboutMeTitle" href='#'>Elijah M.J.O. Miernicki</h1>
                     <p className="lead">
                         A certified full stack developer with over 12 years of people experience (customer service, sales, and account management) in addition to leadership roles. I have a strong entrepreneurial mind with a bachelor's in business management and a master's in science.
                         I am an adaptable individual with strong technical aptitude and problem solving skills fixated on learning and growing.

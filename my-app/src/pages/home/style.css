@@ -18,7 +18,20 @@ html {
   align-items: center;
 }
 
-.aboutMeTitle {
+#aboutMeTitle {
+  font-size: 4rem;
+  font-weight: 1000;
+  font-family: poppins;
+  text-decoration: none;
+  background: linear-gradient(to right, #241c4a 50%, #f15a22 50%, #9e5aa4);
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 0.75s ease-out;
+}
+
+#aboutMeTitle:hover {
+  background-position: -100%;
 }
 
 .lead {
