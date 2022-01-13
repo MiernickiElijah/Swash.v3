@@ -4,6 +4,7 @@ import * as reactIcons from "react-icons/fa";
 import * as AireactIcons from "react-icons/ai";
 import { useState } from 'react';
 import { Navbar } from './navbar';
+import { Logo } from './logo.png';
 
 function Nav() {
     const [navbar, setNavbar] = useState(false)
@@ -32,7 +33,7 @@ function Nav() {
                         return (
                             <li key={index} className={page.className}>
                                 <Link to={page.path}>
-                                    <icon id='pageIcon'>{page.icon}</icon>
+                                    <span id='pageIcon'>{page.icon}</span>
                                     <span>{page.title}</span>
                                 </Link>
                             </li>

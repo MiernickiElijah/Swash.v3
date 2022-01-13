@@ -1,5 +1,4 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
-import Dots from './biomovie.mp4'
 import './style.css'
 import dice from './dice.jpg'
 import magic from './magic.jpg'

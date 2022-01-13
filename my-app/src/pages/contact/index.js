@@ -1,5 +1,3 @@
-import Dots from './biomovie.mp4'
-import Head from './Head.mp4'
 import resume from './resume.pdf'
 import './style.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -35,24 +33,6 @@ function Contact() {
                 </ul>
             </div>
 
-            <div className="modal fade" id="myModal" tabIndex="-1" aria-labelledby="emailModalLabel" aria-hidden="true">
-                <div className="modal-dialog">
-                    <div className="modal-content">
-                        <div className="modal-header">
-                            <h2 className="modal-title" id="emailModalLabel">Scanned my head and messed around with Blender! You know...because why not.</h2>
-                            <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div className="modal-body" id="myInput">
-                            <iframe title="unique" src={Head} width="397" height="480" frameBorder="0" autoPlay="autoplay"
-                                className="giphy-embed" allowFullScreen></iframe>
-                        </div>
-
-                    </div>
-                    <div className="modal-footer">
-                        <button type="button" className="btn btn-default" data-bs-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
         </main >
     )
 }

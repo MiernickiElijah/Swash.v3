@@ -14,6 +14,27 @@ html {
   scroll-behavior: smooth;
 }
 
+.intro {
+  align-items: center;
+}
+
+.aboutMeTitle {
+}
+
+.lead {
+  font-weight: bolder;
+}
+
+.skillsList {
+  padding: 3rem;
+  list-style: none;
+}
+
+.img-fluid {
+  height: 75%;
+  width: 75%;
+}
+
 @media screen and (max-width: 1024px) {
   #navbar {
     width: 60%;

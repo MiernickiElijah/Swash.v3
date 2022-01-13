@@ -14,7 +14,7 @@
   background-color: var(--maincolor);
   height: 80px;
   display: flex;
-  justify-content: right;
+  justify-content: none;
   align-items: center;
 }
 
