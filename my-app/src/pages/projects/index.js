@@ -20,8 +20,8 @@ function Projects() {
                                 <div className="col-lg-6">
                                     <h1 className="display-5 fw-bold lh-1 mb-3"><a className="projectHead"
                                         href="https://poggers-pog.herokuapp.com/login" target="_blank" rel="noreferrer"></a>Poggers</h1>
-                                    <p className="lead">This application provides a helping hand for the ultimate gamer to keep track of the current tasks he or she needs to complete in his or her game. Sometimes a gamer will take a break from a game and go back months later. This application will help the gamer remember exactly where he or she left off and what needs to be completed next.(HTML, CSS, JS, bootstrap, Moment/luxon, node.js, SQL, express, node-mailer, sequilize) <a
-                                        href="https://github.com/MiernickiElijah/poggers" target="_blank" rel="noreferrer">REPO</a>
+                                    <p className="lead">This application provides a helping tracking projects and that projects tasks or bugs that need to be completed. An excellent tool for every programmer. (HTML, CSS, JS, bootstrap, Moment/luxon, node.js, SQL, express, node-mailer, sequilize)
+                                        <a href="https://github.com/MiernickiElijah/poggers" target="_blank" rel="noreferrer">REPO</a>
                                     </p>
                                 </div>
                                 <div className="col-10 col-sm-8 col-lg-6">
@@ -45,15 +45,12 @@ function Projects() {
                                 </div>
                                 <div className="col-lg-6">
                                     <h1 className="display-5 fw-bold lh-1 mb-3"><a className="projectHead"
-                                        href="https://miernickielijah.github.io/Skulduggery/" target="_blank" rel="noreferrer"></a>Skulduggery</h1>
-                                    <p className="lead">This is a random character generator for 5th edition dungeons and
-                                        dragons.
+                                        href="https://miernickielijah.github.io/Skulduggery/" target="_blank" rel="noreferrer"></a>Skulduggery v.2</h1>
+                                    <p className="lead">This is a random character generator for 5th edition Dungeons and
+                                        Dragons. Get a turn key ready character on the fly, perfect for the unprepared game master.
                                         (HTML,
                                         APIs, CSS, vanilla
-                                        JS, jQuery, Bulma framework) Utilizing Agile and Kanban methodologies, our group was
-                                        able to
-                                        finish this project
-                                        in under 2 weeks. <a href="https://github.com/MiernickiElijah/Skulduggery"
+                                        JS, jQuery, Bulma framework) <a href="https://github.com/MiernickiElijah/Skulduggery"
                                             target="_blank" rel="noreferrer">REPO</a>
                                     </p>
                                 </div>
@@ -67,7 +64,7 @@ function Projects() {
                                     <h1 className="display-5 fw-bold lh-1 mb-3"><a className="projectHead"
                                         href="https://miernickielijah.github.io/Druid/" target="_blank" rel="noreferrer"></a>Druid</h1>
                                     <p className="lead">This is a live weather dashboard with current and 5 day forecast based on US
-                                        city.
+                                        city. Type in your city and check out the weather on a clean UI with simple info.
                                         (HTML, CSS, HTML,
                                         jQuery, bootstrap, APIs) <a href="https://github.com/MiernickiElijah/Druid"
                                             target="_blank" rel="noreferrer">REPO</a>
@@ -97,7 +94,7 @@ function Projects() {
                                     <h1 className="display-5 fw-bold lh-1 mb-3"><a className="projectHead"
                                         href="https://github.com/MiernickiElijah/Arcane" target="_blank" rel="noreferrer"></a>Arcane(REPO)</h1>
                                     <p className="lead">This is a README.md generator using node.js. Allowing a user to create an entire
-                                        professional README file via command line.
+                                        professional README file via command line. Because who wants to type out an entire markdown every time?
                                         (Node.js, JS, jQuery, HTML, markdown)
                                     </p>
                                 </div>
