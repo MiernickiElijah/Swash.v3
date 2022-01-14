@@ -13,3 +13,18 @@
 html {
   scroll-behavior: smooth;
 }
+
+.animateLink {
+  font-size: 2rem;
+  font-weight: 1000;
+  font-family: poppins;
+  background: linear-gradient(to left, #241c4a 50%, #00aeef 50%, #f15a22);
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 0.75s ease-out;
+}
+
+.animateLink:hover {
+  background-position: -100%;
+}
