@@ -5,11 +5,11 @@ import magic from './magic.jpg'
 import poggers from './poggers.jpg'
 import focus from './focus.jpg'
 import storm from './storm.jpg'
+import * as AireactIcons from "react-icons/ai";
 
 function Projects() {
     return (
         <>
-
             <main className="animate__animated animate__fadeInLeft">
                 {/* <!--PROJECTS--> */}
                 <div className="page" data-page="3">
@@ -126,7 +126,7 @@ function Projects() {
                     </section>
                 </div>
                 <footer id="footer">
-                    <a href="#top">Take me to the TOP!</a>
+                    <a className='aL' href="#top"><AireactIcons.AiOutlineRocket className='skillIcon' />Take me to the TOP!<AireactIcons.AiOutlineRocket className='skillIcon' /></a>
                 </footer>
             </main>
         </>
