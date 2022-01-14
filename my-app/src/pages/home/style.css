@@ -51,7 +51,7 @@ html {
   font-size: 2rem;
   font-weight: 1000;
   font-family: poppins;
-  background: linear-gradient(to left, #241c4a 50%, #00aeef, #f15a22);
+  background: linear-gradient(to left, #241c4a 50%, #00aeef 50%, #f15a22);
   background-size: 200%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -60,6 +60,17 @@ html {
 
 .animateLink:hover {
   background-position: -59%;
+}
+
+.aL:hover .skillIcon {
+  height: 30px;
+  color: var(--secondary);
+  transition-duration: 0.3s ease-out;
+}
+
+.workLink {
+  text-decoration: underline;
+  text-decoration: var(--maincolor);
 }
 
 .img-fluid {
