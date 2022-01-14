@@ -18,7 +18,7 @@ html {
   align-items: center;
 }
 
-#aboutMeTitle {
+.animateText {
   font-size: 4rem;
   font-weight: 1000;
   font-family: poppins;
@@ -30,7 +30,7 @@ html {
   transition: 0.75s ease-out;
 }
 
-#aboutMeTitle:hover {
+.animateText:hover {
   background-position: -100%;
 }
 
@@ -38,9 +38,28 @@ html {
   font-weight: bolder;
 }
 
+#bio {
+  padding: 2rem;
+}
+
 .skillsList {
   padding: 3rem;
   list-style: none;
+}
+
+.animateLink {
+  font-size: 2rem;
+  font-weight: 1000;
+  font-family: poppins;
+  background: linear-gradient(to left, #241c4a 50%, #00aeef, #f15a22);
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 0.75s ease-out;
+}
+
+.animateLink:hover {
+  background-position: -59%;
 }
 
 .img-fluid {

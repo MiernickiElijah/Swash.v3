@@ -10,7 +10,7 @@ function Home() {
 
             <section className="aboutme row flex-lg-row-reverse align-items-center">
                 <article className="intro col-lg-6" id="bio">
-                    <h1 id="aboutMeTitle" href='#'>Elijah M.J.O. Miernicki</h1>
+                    <h1 className='animateText' href='#'>Elijah M.J.O. Miernicki</h1>
                     <p className="lead">
                         A certified full stack developer with over 12 years of people experience (customer service, sales, and account management) in addition to leadership roles. I have a strong entrepreneurial mind with a bachelor's in business management and a master's in science.
                         I am an adaptable individual with strong technical aptitude and problem solving skills fixated on learning and growing.
@@ -24,6 +24,7 @@ function Home() {
                         <li className='aL'><FareactIcons.FaNodeJs className='skillIcon' />  Node.js</li>
                         <li className='aL'>(<SireactIcons.SiPowerbi className='skillIcon' />  PowerBI,<SireactIcons.SiDynamics365 className='skillIcon' />  Microsoft Dynamics, <FareactIcons.FaFileExcel className='skillIcon' />  Excel)</li>
                     </ol>
+                    <h3 className='animateLink' href={Home}>Check out my WORK </h3>
                 </article>
                 <article className="col-lg-6">
                     <img className="lg-auto img-fluid" src={Eli} alt='me'></img>
