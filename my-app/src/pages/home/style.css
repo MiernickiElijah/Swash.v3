@@ -22,7 +22,6 @@ html {
   font-size: 4rem;
   font-weight: 1000;
   font-family: poppins;
-  text-decoration: none;
   background: linear-gradient(to right, #241c4a 50%, #f15a22 50%, #9e5aa4);
   background-size: 200%;
   -webkit-background-clip: text;
@@ -35,7 +34,7 @@ html {
 }
 
 .lead {
-  font-weight: bolder;
+  font-weight: 800;
 }
 
 #bio {
@@ -66,11 +65,6 @@ html {
   height: 30px;
   color: var(--secondary);
   transition-duration: 0.3s ease-out;
-}
-
-.workLink {
-  text-decoration: underline;
-  text-decoration: var(--maincolor);
 }
 
 .img-fluid {
