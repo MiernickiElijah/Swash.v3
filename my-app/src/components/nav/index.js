@@ -2,9 +2,9 @@ import { Link } from 'react-router-dom';
 import './style.css';
 import * as reactIcons from "react-icons/fa";
 import * as AireactIcons from "react-icons/ai";
+import * as IoreactIcons from "react-icons/io";
 import { useState } from 'react';
 import { Navbar } from './navbar';
-import { Logo } from './logo.png';
 
 function Nav() {
     const [navbar, setNavbar] = useState(false)
