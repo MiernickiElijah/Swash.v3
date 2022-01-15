@@ -8,7 +8,7 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 function Contact() {
     return (
         <section className='card-group'>
-            <article className='contactColumn people card'>
+            <article className='contactColumn people card border-0'>
                 <div className="flip-card">
                     <h3 className='contactName card-header-title'>GITHUB</h3>
                     <div className="flip-card-inner">
@@ -26,7 +26,7 @@ function Contact() {
                 </div>
             </article>
 
-            <article className='contactColumn people card'>
+            <article className='contactColumn people card border-0'>
                 <div className="flip-card">
                     <h3 className='contactName card-header-title'>EMAIL</h3>
                     <div className="flip-card-inner">
@@ -43,7 +43,7 @@ function Contact() {
                 </div>
             </article>
 
-            <article className='contactColumn people card'>
+            <article className='contactColumn people card border-0'>
                 <div className="flip-card">
                     <h3 className='contactName card-header-title'>LINKEDIN</h3>
                     <div className="flip-card-inner">
@@ -60,7 +60,7 @@ function Contact() {
                 </div>
             </article>
 
-            <article className='contactColumn people card'>
+            <article className='contactColumn people card border-0'>
                 <div className="flip-card">
                     <h3 className='contactName card-header-title'>Resume</h3>
                     <div className="flip-card-inner">
