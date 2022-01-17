@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Swash.v3/static/css/main.d6f8feaa.css",
+    "main.js": "/Swash.v3/static/js/main.3e972950.js",
+    "static/js/787.fd8f13c5.chunk.js": "/Swash.v3/static/js/787.fd8f13c5.chunk.js",
+    "static/media/focus.jpg": "/Swash.v3/static/media/focus.7a60f54221143ce7b3e2.jpg",
+    "static/media/magic.jpg": "/Swash.v3/static/media/magic.a0759aa2c26f0b524bfc.jpg",
+    "static/media/Eli2.png": "/Swash.v3/static/media/Eli2.9e058a3cfffc6665304e.png",
+    "static/media/dice.jpg": "/Swash.v3/static/media/dice.ea644d610cd330917768.jpg",
+    "static/media/storm.jpg": "/Swash.v3/static/media/storm.3f643a7f11445fd28b3e.jpg",
+    "static/media/poggers.jpg": "/Swash.v3/static/media/poggers.690aa4b10bab58c279d9.jpg",
+    "static/media/resume.pdf": "/Swash.v3/static/media/resume.935600cecae44e46c9e6.pdf",
+    "index.html": "/Swash.v3/index.html",
+    "main.d6f8feaa.css.map": "/Swash.v3/static/css/main.d6f8feaa.css.map",
+    "main.3e972950.js.map": "/Swash.v3/static/js/main.3e972950.js.map",
+    "787.fd8f13c5.chunk.js.map": "/Swash.v3/static/js/787.fd8f13c5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6f8feaa.css",
+    "static/js/main.3e972950.js"
+  ]
+}
