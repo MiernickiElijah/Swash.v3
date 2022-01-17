@@ -1,5 +1,5 @@
 {
-  "homepage": "http://miernickielijah.github.io/Swash.v3",
+  "homepage": "http://miernickielijah.github.io/Swash.v3/home",
   "name": "swash3",
   "version": "0.1.0",
   "engines": {
@@ -50,6 +50,10 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3"
+    "gh-pages": "^3.2.3",
+    "mini-css-extract-plugin": "2.4.5"
+  },
+  "resolutions": {
+    "mini-css-extract-plugin": "2.4.5"
   }
 }
