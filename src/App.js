@@ -25,6 +25,9 @@ function App() {
         </Route>
         <Route exact path="/services">
         </Route>
+        <Route path="/">
+          <Home />
+        </Route>
       </div>
     </Router>
   );
