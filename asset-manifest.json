@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Swash.v3/static/css/main.d6f8feaa.css",
-    "main.js": "/Swash.v3/static/js/main.64cc64f7.js",
+    "main.js": "/Swash.v3/static/js/main.57d472b7.js",
     "static/js/787.fd8f13c5.chunk.js": "/Swash.v3/static/js/787.fd8f13c5.chunk.js",
     "static/media/focus.jpg": "/Swash.v3/static/media/focus.7a60f54221143ce7b3e2.jpg",
     "static/media/magic.jpg": "/Swash.v3/static/media/magic.a0759aa2c26f0b524bfc.jpg",
@@ -12,11 +12,11 @@
     "static/media/resume.pdf": "/Swash.v3/static/media/resume.935600cecae44e46c9e6.pdf",
     "index.html": "/Swash.v3/index.html",
     "main.d6f8feaa.css.map": "/Swash.v3/static/css/main.d6f8feaa.css.map",
-    "main.64cc64f7.js.map": "/Swash.v3/static/js/main.64cc64f7.js.map",
+    "main.57d472b7.js.map": "/Swash.v3/static/js/main.57d472b7.js.map",
     "787.fd8f13c5.chunk.js.map": "/Swash.v3/static/js/787.fd8f13c5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d6f8feaa.css",
-    "static/js/main.64cc64f7.js"
+    "static/js/main.57d472b7.js"
   ]
 }
