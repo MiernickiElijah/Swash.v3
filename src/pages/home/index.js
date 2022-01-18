@@ -26,7 +26,7 @@ function Home() {
                         <li className='aL'><GrreactIcons.GrMysql className='skillIcon' />  MySQL</li>
                         <li className='aL'>(<SireactIcons.SiPowerbi className='skillIcon' />  PowerBI,<SireactIcons.SiDynamics365 className='skillIcon' />  Microsoft Dynamics, <FareactIcons.FaFileExcel className='skillIcon' />  Excel)</li>
                     </ol>
-                    <h3 className='animateLink'>Check out my <a className='workLink' href='/projects'>WORK</a></h3>
+                    <h3 className='animateLink'>Check out my <a className='workLink' href='./projects'>WORK</a></h3>
                 </article>
                 <article className="col-lg-6">
                     <img className="lg-auto img-fluid" src={Eli} alt='me'></img>
