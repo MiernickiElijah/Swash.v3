@@ -1,5 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import './style.css'
+import Aos from "aos";
+import "aos/dist/aos.css"
 import dice from './dice.jpg'
 import magic from './magic.jpg'
 import poggers from './poggers.jpg'
@@ -7,25 +9,29 @@ import focus from './focus.jpg'
 import storm from './storm.jpg'
 import newdle from './newdle.PNG'
 import * as AireactIcons from "react-icons/ai";
+import { useEffect } from 'react';
 
 function Projects() {
+    useEffect(() => {
+        Aos.init({ duration: 2000 });
+    }, []);
     return (
         <>
-            <main className="animate__animated animate__fadeInLeft">
+            <main>
                 {/* <!--PROJECTS--> */}
                 <div className="page" data-page="3">
                     <section id="deck">
                         {/* <!--p1--> */}
                         <article className="container col-xxl-8 px-4 py-5">
                             <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
-                                <div className="col-lg-6">
+                                <div data-aos='fade-right' className="col-lg-6">
                                     <a className="projectHead"
                                         href="https://poggers-pog.herokuapp.com/login" target="_blank" rel="noreferrer"><h1 className="display-5 fw-bold lh-1 mb-3 animateLink">Poggers</h1></a>
                                     <p className="lead">This application provides a helping tracking projects and that projects tasks or bugs that need to be completed. An excellent tool for every programmer. (HTML, CSS, JS, bootstrap, Moment/luxon, node.js, SQL, express, node-mailer, sequilize)
                                         <a href="https://github.com/MiernickiElijah/poggers" target="_blank" rel="noreferrer">REPO</a>
                                     </p>
                                 </div>
-                                <div className="col-10 col-sm-8 col-lg-6">
+                                <div data-aos='fade-left' className="col-10 col-sm-8 col-lg-6">
                                     <a href="https://poggers-pog.herokuapp.com/login" target="_blank" rel="noreferrer">
                                         <img className="d-block mx-lg-auto img-fluid pics"
                                             src={poggers} alt=""></img></a>
@@ -34,17 +40,16 @@ function Projects() {
                             </div>
                         </article>
 
-
                         {/* <!--p2--> */}
                         <article className="container col-xxl-8 px-4 py-5">
                             <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
-                                <div className="col-10 col-sm-8 col-lg-6">
+                                <div data-aos='fade-left' className="col-10 col-sm-8 col-lg-6">
                                     <a href="https://born001.herokuapp.com/" target="_blank" rel="noreferrer">
                                         <img className="d-block mx-lg-auto img-fluid pics"
                                             src={newdle} alt="newdle"></img>
                                     </a>
                                 </div>
-                                <div className="col-lg-6">
+                                <div data-aos='fade-right' className="col-lg-6">
                                     <a className="projectHead"
                                         href="https://born001.herokuapp.com/" target="_blank" rel="noreferrer"><h1 className="display-5 fw-bold lh-1 mb-3 animateLink">Newdle</h1></a>
                                     <p className="lead">This is a voting application that allows users to create and vote on polls to help them make group decisions. Perfect for those indecisive people or a large opinionated group. (HTML, CSS, JS, Bulma, node.js, SQL, express, graphQL, react)<a href="https://github.com/MiernickiElijah/breakoutRoomNomads"
@@ -58,7 +63,7 @@ function Projects() {
                         {/* <!--p4--> */}
                         <article className="container col-xxl-8 px-4 py-5">
                             <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
-                                <div className="col-lg-6">
+                                <div data-aos='fade-right' className="col-lg-6">
                                     <a className="projectHead"
                                         href="https://miernickielijah.github.io/Druid/" target="_blank" rel="noreferrer"><h1 className="display-5 fw-bold lh-1 mb-3 animateLink">Druid</h1></a>
                                     <p className="lead">This is a live weather dashboard with current and 5 day forecast based on US
@@ -68,7 +73,7 @@ function Projects() {
                                             target="_blank" rel="noreferrer">REPO</a>
                                     </p>
                                 </div>
-                                <div className="col-10 col-sm-8 col-lg-6">
+                                <div data-aos='fade-left' className="col-10 col-sm-8 col-lg-6">
                                     <a href="https://miernickielijah.github.io/Druid/" target="_blank" rel="noreferrer">
                                         <img className="d-block mx-lg-auto img-fluid pics"
                                             src={storm} alt="storm"></img>
@@ -82,14 +87,14 @@ function Projects() {
                         {/* <!--p3--> */}
                         <article className="container col-xxl-8 px-4 py-5">
                             <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
-                                <div className="col-10 col-sm-8 col-lg-6">
+                                <div data-aos='fade-left' className="col-10 col-sm-8 col-lg-6">
                                     <a href="https://miernickielijah.github.io/Skulduggery/" target="_blank" rel="noreferrer">
                                         <img className="d-block mx-lg-auto img-fluid pics"
                                             src={dice} alt="dice"></img>
                                     </a>
                                     <figcaption>photo by Alperen Yazgi on Unsplash</figcaption>
                                 </div>
-                                <div className="col-lg-6">
+                                <div data-aos='fade-right' className="col-lg-6">
                                     <a className="projectHead"
                                         href="https://miernickielijah.github.io/Skulduggery/" target="_blank" rel="noreferrer"><h1 className="display-5 fw-bold lh-1 mb-3 animateLink">Skulduggery v.2</h1></a>
                                     <p className="lead">This is a random character generator for 5th edition Dungeons and
@@ -106,7 +111,7 @@ function Projects() {
                         {/* <!--p6--> */}
                         <article className="container col-xxl-8 px-4 py-5">
                             <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
-                                <div className="col-lg-6">
+                                <div data-aos='fade-right' className="col-lg-6">
                                     <a className="projectHead"
                                         href="https://miernickielijah.github.io/barbarian/" target="_blank" rel="noreferrer"><h1 className="display-5 fw-bold lh-1 mb-3 animateLink">Barbarian</h1></a>
                                     <p className="lead">This is a day scheduler that allows users to save written notes via time to
@@ -116,7 +121,7 @@ function Projects() {
                                             href="https://github.com/MiernickiElijah/barbarian" target="_blank" rel="noreferrer">REPO</a>
                                     </p>
                                 </div>
-                                <div className="col-10 col-sm-8 col-lg-6">
+                                <div data-aos='fade-left' className="col-10 col-sm-8 col-lg-6">
                                     <a href="https://miernickielijah.github.io/barbarian/" target="_blank" rel="noreferrer">
                                         <img className="d-block mx-lg-auto img-fluid pics"
                                             src={focus} alt="storm"></img>
@@ -129,14 +134,14 @@ function Projects() {
                         {/* <!--p5--> */}
                         <article className="container col-xxl-8 px-4 py-5">
                             <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
-                                <div className="col-10 col-sm-8 col-lg-6">
+                                <div data-aos='fade-left' className="col-10 col-sm-8 col-lg-6">
                                     <a href="https://github.com/MiernickiElijah/Arcane" target="_blank" rel="noreferrer">
                                         <img className="d-block mx-lg-auto img-fluid pics"
                                             src={magic} alt="holding moon"></img>
                                     </a>
                                     <figcaption>photo by Jasper Benning on Unsplash</figcaption>
                                 </div>
-                                <div className="col-lg-6">
+                                <div data-aos='fade-right' className="col-lg-6">
                                     <a className="projectHead"
                                         href="https://github.com/MiernickiElijah/Arcane" target="_blank" rel="noreferrer"><h1 className="display-5 fw-bold lh-1 mb-3 animateLink">Arcane(REPO)</h1></a>
                                     <p className="lead">This is a README.md generator using node.js. Allowing a user to create an entire
