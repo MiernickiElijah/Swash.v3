@@ -4,13 +4,15 @@ import * as FareactIcons from "react-icons/fa";
 import * as IoreactIcons from "react-icons/io";
 import * as SireactIcons from "react-icons/si";
 import * as GrreactIcons from "react-icons/gr";
+import { Link } from 'react-router-dom';
+import { Linker } from './linker';
 
 function Home() {
     return (
         <main className="page container-fluid">
 
             <section className="aboutme row flex-lg-row-reverse align-items-center">
-                <article className="intro col-lg-6" id="bio">
+                <article className="intro col-lg-6 align-items-center" id="bio">
                     <h1 className='animateText' href='#'>Elijah M.J.O. Miernicki</h1>
                     <p className="lead">
                         A certified full stack developer with over 12 years of people experience (customer service, sales, and account management) in addition to mutliple leadership roles. I have a strong entrepreneurial mind with a bachelor's in business management and a master's in exercise science.
@@ -26,7 +28,18 @@ function Home() {
                         <li className='aL'><GrreactIcons.GrMysql className='skillIcon' />  MySQL</li>
                         <li className='aL'>(<SireactIcons.SiPowerbi className='skillIcon' />  PowerBI,<SireactIcons.SiDynamics365 className='skillIcon' />  Microsoft Dynamics, <FareactIcons.FaFileExcel className='skillIcon' />  Excel)</li>
                     </ol>
-                    <h3 className='animateLink'>Check out my <a className='workLink' href='./projects'>WORK</a></h3>
+
+                    {Linker.map((page, index) => {
+                        return (
+                            <h3 key={index} className={page.className}>Check out my
+                                <Link to={page.path}>
+                                    <span id='pageIcon'>{page.icon}</span>
+                                    <span>{page.title}</span>
+                                </Link>
+                            </h3>
+                        )
+                    })}
+
                 </article>
                 <article className="col-lg-6">
                     <img className="lg-auto img-fluid" src={Eli} alt='me'></img>
