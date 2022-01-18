@@ -23,7 +23,7 @@
 
 ## Screenshot
 
-## ![Screenshot](assets/images/screenshot.png)
+## ![Screenshot](public\screenshot.png)
 
 ## Questions
 
