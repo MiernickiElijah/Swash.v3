@@ -3,9 +3,9 @@ import * as FareactIcons from "react-icons/fa"
 
 export const Linker = [
     {
-        title: 'PROJECTS',
+        title: 'WORK',
         path: '/projects',
         icon: <FareactIcons.FaCode />,
-        className: 'nav-text animateLink justify-content-center'
+        className: 'nav-text animateLink justify-content-center flex-wrap'
     }
 ] 

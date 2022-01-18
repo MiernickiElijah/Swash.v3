@@ -31,10 +31,10 @@ function Home() {
 
                     {Linker.map((page, index) => {
                         return (
-                            <h3 key={index} className={page.className}>Check out my
+                            <h3 key={index} className={page.className}>My
                                 <Link to={page.path}>
                                     <span id='pageIcon'>{page.icon}</span>
-                                    <span>{page.title}</span>
+                                    <span className='flex-wrap'>{page.title}</span>
                                 </Link>
                             </h3>
                         )
