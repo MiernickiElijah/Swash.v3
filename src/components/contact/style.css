@@ -2,7 +2,6 @@
 
 .card {
   margin: 50px;
-  border-width: 0px;
 }
 
 .profilepics {
@@ -12,7 +11,7 @@
 }
 
 .contactName {
-  font-family: "Berkshire Swash", cursive;
+  font-family: "Berkshire Swash", poppins;
   color: var(--white);
   font-size: 40px;
   display: flex;
